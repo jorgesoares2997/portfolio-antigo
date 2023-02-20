@@ -1,6 +1,6 @@
 
 function viewa(){
-    let res = document.getElementById('res')
+    let res = document.getElementById('res1')
     let view = document.getElementById('a')
     let a = document.getElementById('a')
     let i = String(view.value)
@@ -17,7 +17,7 @@ function viewa(){
     }
 }
 function viewb(){
-    let res = document.getElementById('res')
+    let res = document.getElementById('res2')
     let view = document.getElementById('a')
     let a = document.getElementById('a')
     let i = String(view.value)
@@ -33,7 +33,7 @@ function viewb(){
     }
 }
 function viewc(){
-    let res = document.getElementById('res')
+    let res = document.getElementById('res1')
     let view = document.getElementById('a')
     let a = document.getElementById('a')
     let i = String(view.value)
@@ -49,7 +49,7 @@ function viewc(){
     }
 }
 function viewd(){
-    let res = document.getElementById('res')
+    let res = document.getElementById('res2')
     let view = document.getElementById('a')
     let a = document.getElementById('a')
     let i = String(view.value)
@@ -71,7 +71,7 @@ function entera(){
     let enter = document.getElementById('a')
     let div = document.getElementById('txt')
     if(enter.value == 0){
-        window.alert('deu errado')
+        // window.alert('deu errado')
     }
     else{
         // window.alert('deu certo')
