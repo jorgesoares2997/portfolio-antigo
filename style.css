@@ -25,9 +25,7 @@ main{
     
     
 }
-section#coluna{
 
-}
 div.txt{
  
     margin-bottom: 60px;
@@ -56,19 +54,7 @@ p#p{
 }
 
 
-/* section#coluna{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  
-    height: 30px;
-    
-    margin-bottom: 60px;
-   
-    width: 80px;
-    
-    
-} */
+
 h2{
     font: normal 16px 'poppins';
     text-align: center;
@@ -81,18 +67,11 @@ footer{
     display: block;
 
 }
-/* section#coluna:hover{
-   width: 400px;
- 
-   transition: .6s .1s;
-   text-align: center;
-    
-} */
 
-a{
+a.foot{
    margin-left: 12px;
 }
-a:hover{
+a.foot:hover{
     transition: .3s .1s;
     padding: 16px;
     height: 12px;
@@ -165,12 +144,19 @@ div#tecs{
     border-radius: 12px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.35);
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.376), rgba(255, 255, 255, 0.384));
-    width: 100px;
+    width: 100px;  
 }
 img.lang{
     border: none;
     border-radius: 8px;
     margin-bottom: 12px;
+    width: 100px;
+    right: 100px;
     
+}
+.lang:hover{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    transition: .4s .1s;
 
 }
