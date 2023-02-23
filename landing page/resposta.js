@@ -11,6 +11,7 @@ let instrumento = document.getElementsByName('ins')
 let temIns = document.getElementsByName('temins')
 let exp = document.getElementsByName('exp')
 let resposta = document.getElementById('resposta')
+
 // let imported = document.createElement('landingpage.js')
 
 

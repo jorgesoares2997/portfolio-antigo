@@ -1,0 +1,47 @@
+
+
+body{
+    background-color: rgb(107, 107, 241);
+    font: normal 15pt 'arial';
+}
+header{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+section{
+    background-color: rgba(255, 255, 255, 0.207);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin:auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.379);
+    
+
+}
+main{
+    padding: 26px;
+    
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    margin-top: 44px;
+
+}
+div {
+    text-align: center;
+    padding: 8px;
+}a.foot{
+    margin-left: 12px;
+ }
+ a.foot:hover{
+     transition: .3s .1s;
+     padding: 16px;
+     height: 12px;
+     width: 35px;
+ }

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,100&display=swap');
+body{
+    
+    background-image: linear-gradient(to left,#9AEBA3 45%, #45C4B0);
+    align-items: center;
+     
+}
+header{
+    font: normal 16pt 'poppins';
+    text-align: center;
+}
+section{
+    background-color: #DAFDBA;
+    border-radius: 10px;
+    width: 500px;
+    padding: 15px;
+    font: normal 16px 'poppins';
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.538);
+    margin: auto;
+    text-align: center;
+
+    
+}
+p{
+    margin-left: 16px;
+    padding: 16px;
+    font: normal 12pt 'poppins' ;
+    margin-left: 100px;
+}
+input{
+    border: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.538);
+    border-radius: 8px;
+    text-align: center;
+    padding: 4px;
+    margin: auto;
+    margin-left: 6px;
+    margin-top: 18px;
+}
+input#botao{
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    background-color: #012030;
+    height: 30px;
+    width: 90px;
+    font: normal 12px 'poppins';
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    color: white;
+    margin-top: 40px;
+    padding-left: 16px;
+    
+}
+footer{
+    
+    color: #012030;
+    text-align: center;
+    font-style: italic;    
+    margin-top: 12px;
+    
+}select{
+    width: 300px;
+    border: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.538);
+    border-radius: 20px;
+    text-align: center;
+    font: normal 12px 'poppins';
+    
+    
+}
+div#res
+{
+    text-align: center;
+    font: normal 16px 'poppins';
+    margin-top: 40px;
+
+}
+
+
+    
+
