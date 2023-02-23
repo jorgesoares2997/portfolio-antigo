@@ -65,7 +65,8 @@ footer{
     font: normal 16px 'arial';
     font-style: italic;
     text-align: center;
-    display: block;
+    margin-top: 44px;
+    transition: .4s .1s;
 
 }a{
     text-decoration: underline;

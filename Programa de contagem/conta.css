@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,100&display=swap');
+html{
+    height: 100%;
+}
 body{
     
-    background-image: linear-gradient(to left,#9AEBA3 45%, #45C4B0);
+    background-image: linear-gradient(to top,#9AEBA3 , #45C4B0);
      
 }
 header{
+    color: rgb(0, 0, 0);
     font: normal 16pt 'poppins';
     text-align: center;
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
 }
 section{
     background-color: #DAFDBA;
@@ -48,11 +57,17 @@ input#botao{
     margin-top: 20px;
     
 }
+input#botao:active{
+    height: 35px;
+    width: 55px;
+    text-align: center;
+}
 footer{
     font-family: Arial, Helvetica, sans-serif;
     color: #012030;
     text-align: center;
-    font-style: italic;    
+    font-style: italic;  
+    margin-top: 44px;  
 }
 #res{
     margin: auto;
@@ -62,4 +77,19 @@ footer{
     margin-bottom: 15px;
     
 
+}a{
+    text-decoration: underline;
+    color: inherit;
 }
+
+a.foot{
+   margin-left: 12px;
+   transition: .4s .1s;
+}
+a.foot:hover{
+    transition: .4s .1s;
+    padding: 16px;
+    height: 12px;
+    width: 35px;
+}
+
