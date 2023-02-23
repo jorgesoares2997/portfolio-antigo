@@ -1,31 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,100&display=swap');
+html{
+    height: 100%;
+}
 body{
     
-    background-image: linear-gradient(to left,#9AEBA3 45%, #45C4B0);
+    background-image: linear-gradient(to top,#9AEBA3 45%, #45C4B0);
     align-items: center;
      
 }
 header{
     font: normal 16pt 'poppins';
     text-align: center;
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
 }
 section{
     background-color: #DAFDBA;
     border-radius: 10px;
-    width: 500px;
-    padding: 15px;
+    width: 70%;
+    height: 700px;
+    /* padding: 64px; */
     font: normal 16px 'poppins';
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.538);
     margin: auto;
-    text-align: center;
-
+    display: flex;
+    flex-direction: column;
+    /* align-content: space-around; */
+    align-items: center;
+    
+    
     
 }
 p{
-    margin-left: 16px;
+    /* margin-left: 16px; */
     padding: 16px;
     font: normal 12pt 'poppins' ;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 input{
     border: none;
@@ -36,10 +49,12 @@ input{
     margin: auto;
     margin-left: 6px;
     margin-top: 18px;
+    margin: auto;
+    margin-bottom: 60px;
 }
 input#botao{
     border-radius: 20px;
-    text-align: center;
+    /* text-align: center; */
     border: none;
     background-color: #012030;
     height: 30px;
@@ -47,18 +62,23 @@ input#botao{
     font: normal 12px 'poppins';
     display: flex;
     flex-direction: row;
-    margin-left: 200px;
+    /* margin-left: 200px; */
     color: white;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     padding-left: 16px;
+    margin: auto;
     
+    
+}input#botao:active{
+    width: 100px;
+    height: 40px;
 }
 footer{
     
     color: #012030;
     text-align: center;
     font-style: italic;    
-    margin-top: 12px;
+    margin-top: 44px;
     
 }select{
     width: 300px;
@@ -77,7 +97,21 @@ div#res
     margin-top: 40px;
 
 }
+a{
+    text-decoration: underline;
+    color: inherit;
+}
 
+a.foot{
+   margin-left: 12px;
+   transition: .4s .1s;
+}
+a.foot:hover{
+    transition: .4s .1s;
+    padding: 16px;
+    height: 12px;
+    width: 35px;
+}
 
     
 
