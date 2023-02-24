@@ -18,10 +18,10 @@ function viewa(){
 }
 function viewb(){
     let res = document.getElementById('res2')
-    let view = document.getElementById('a')
-    let a = document.getElementById('a')
+    let view = document.getElementById('b')
+    let b = document.getElementById('b')
     let i = String(view.value)
-    if(i.value == a ){
+    if(i.value == b ){
    
     window.alert('[ERRO]')}
     else{
@@ -30,14 +30,15 @@ function viewb(){
         <br> hoje ensino música na <abbr title="Escola de Música Elias Mendes Barbosa"><strong>EMEMB</strong>,
         <br> projeto social que fundei e
         <br> administro com a ajuda da minha esposa.</abbr></h2>`
+       
     }
 }
 function viewc(){
-    let res = document.getElementById('res1')
-    let view = document.getElementById('a')
-    let a = document.getElementById('a')
+    let res = document.getElementById('res3')
+    let view = document.getElementById('c')
+    let c = document.getElementById('c')
     let i = String(view.value)
-    if(i.value == a ){
+    if(i.value == c ){
    
     window.alert('[ERRO]')}
     else{
@@ -49,11 +50,11 @@ function viewc(){
     }
 }
 function viewd(){
-    let res = document.getElementById('res2')
-    let view = document.getElementById('a')
-    let a = document.getElementById('a')
+    let res = document.getElementById('res4')
+    let view = document.getElementById('d')
+    let d = document.getElementById('d')
     let i = String(view.value)
-    if(i.value == a ){
+    if(i.value == d ){
    
     window.alert('[ERRO]')}
     else{
